@@ -75,10 +75,10 @@ extern int credit_page;
 
 extern const char noteNames[72][5];
 extern const UWORD frequencies[72];
-extern const UBYTE squareSamples[32];
-extern const UBYTE sawSamples[128];
-extern const UBYTE triangleSamples[128];
-extern const UBYTE sineSamples[128];
+extern const UBYTE squareSamples[64];
+extern const UBYTE sawSamples[256];
+extern const UBYTE triangleSamples[256];
+extern const UBYTE sineSamples[256];
 extern const UBYTE noiseNotesFrequencies[6]; // this is the UBYTE for FF22 - NR43 - Polynomial Counter
 extern const int noiseNoteNameIndex[6]; // this is the index in noteNames
 extern const UBYTE volumeFaderPosition[16];
